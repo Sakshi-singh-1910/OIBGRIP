@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Oasis Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15b6513453.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="image/Logo.jpg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Development Designer</p>
+            <h1>Hi,I'm <br><span>Sakshi</span> Singh</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Expedita<br> eum perspiciatis voluptates. Totam ex, rem alias deserunt eum<br> nulla tempore aut nesciunt, dolore ab architecto temporibus,<br> ratione a aperiam.</p>
+        </div>
+       <div>
+         <button class="button">Hire Me</button>
+       </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam sunt obcaecati cumque vero expedita, illo officia amet velit voluptatibus tenetur sequi quisquam aspernatur dolorem perspiciatis fugit provident! Quae, doloribus cumque!</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C/C++ Programming Langauage<br>Python Programming Langauager</li>
+                        <li><span>Web Development</span><br>HTML<br>CSS<br>JAVASCRIPT</li>
+                        <li><span>App Development</span><br>HTML<br>Building Android Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>HighSchool<br>from S.S.GIRLS INTER COLLEGE , KANPUR</li>
+                        <li><span>2019</span><br>Intermediate<br>from S.S.GIRLS INTER COLLEGE , KANPUR</li>
+                        <li><span>2024</span><br>Bachelor of Technology<br>Branch - Information Technology<br>from RAJKIYA ENGINEERING COLLEGE , BANDA</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>Certificate</span><br>Of Completion C Programming Langauage<br>by Great Learning</li>
+                        <li><span>Certificate</span><br>Of Completion 7-days Bootcamp on Back-End-Web Development <br>by Devtown</li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- --------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo cum itaque velit id corrupti autem porro ducimus dolore minus, ea neque, esse ab excepturi rem dolorem accusamus. Distinctio, esse.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Advertising</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo cum itaque velit id corrupti autem porro ducimus dolore minus, ea neque, esse ab excepturi rem dolorem accusamus. Distinctio, esse.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Application Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo cum itaque velit id corrupti autem porro ducimus dolore minus, ea neque, esse ab excepturi rem dolorem accusamus. Distinctio, esse.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>THE app connects you to the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>THE app connects you to the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">                
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>THE app connects you to the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<footer>
+    <!-- ------------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>contact@example.com</p>
+    </div>
+    <form>
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+    </form>
+</div>      
+    <br><br><br><br><br><br><link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    Copyright &copy; By Sakshi Singh | All rights reserved | Contact Us: 1234567890
+    <h2 class="social">Let's get social</h2>
+    <div class="wrapper">
+        <a href="https://www.facebook.com/profile.php?id=100014301184719" class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </a>
+        <a href=" https://www.instagram.com/invites/contact/?i=z8gv3yuym95d&utm_content=65ceu47" class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span><i class="fab fa-instagram"></i></span>
+        </a>
+        <a href="https://github.com/Sakshi-singh-1910" class="icon github">
+            <div class="tooltip">Github</div>
+            <span><i class="fab fa-github"></i></span>
+        </a>
+        <a href="https://www.linkedin.com/in/sakshi-singh-393799222" class="icon linkedin">
+            <div class="tooltip">LinkedIn</div>
+            <span><i class="fab fa-linkedin"></i></span>
+        </a>
+        <a href="" class="icon youtube">
+            <div class="tooltip">Youtube</div>
+            <span><i class="fab fa-youtube"></i></span>
+        </a>
+    </div>
+    <a href="image/my-cv.pdf" download class= "btn btn2">Download CV</a>
+</footer>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+</body>
+</html>
